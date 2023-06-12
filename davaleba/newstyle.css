@@ -1,0 +1,68 @@
+body{
+    background-color: lightgrey;
+}
+nav {
+  position: fixed;
+  width: 100%;
+  background-color:   rgba(170, 167, 167, 0.973);
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    display: inline-block;
+  }
+  
+  li a {
+    display: block;
+    padding: 10px 20px;
+    color:  
+    #4E6FAE;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color:  grey;
+  }
+
+ img {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 50%; 
+    max-height: 80%;
+  }
+  .kont1 {
+    position: absolute;
+    left: 25%;
+    top: 70%;
+  }
+  .kont2 {
+    position: absolute; 
+    left: 60%;
+    top: 70%;
+  }
+
+  .pic1 {
+    position: absolute;
+    top: 80%;
+    left: 23%;
+  }
+  .pic2 {
+    position: absolute;
+    top: 80%;
+    left: 57%;
+  }
+  h2 {
+    position: absolute;
+    top: 60%;
+    left: 30%
+
+  }
+
+
