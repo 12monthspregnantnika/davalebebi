@@ -1,0 +1,153 @@
+body{
+  background-color: white;
+}
+nav {
+position: fixed;
+width: 100%;
+background-color:   white;
+z-index: 10;
+height: 60px;
+}
+
+ul {
+  list-style-type: none;
+  margin-top: 10px;
+  padding: 0;
+  text-align: right;
+}
+
+li {
+  display: inline-block;
+  font-family: Helvetica;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+}
+
+li a {
+  display: block;
+  padding: 10px 20px;
+  color:  #636060;
+  text-decoration: none;
+  
+}
+
+li a:hover {
+  background-color:  grey;
+}
+
+.container {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  height: 606px;
+  top: 40px;
+  margin-bottom: 100px;
+}
+.img1 {
+  width: 100%;
+  height: 100%;
+}
+.textover {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+}
+
+.textover .h1 {
+  font-size: 50px;
+  margin-bottom: 10px;
+  color: #FFFFFF;
+
+}
+
+.textover .p1 {
+  font-size: 15px;
+  color: #FFFFFF;
+
+}
+.h1, .p {
+font-family: Helvetica;
+font-size: 79px;
+font-weight: 700;
+line-height: 91px;
+letter-spacing: 0em;
+}
+
+.text2 {
+  position: absolute;
+  height: 200px;
+  width: 240px;
+}
+.p2 {
+ font-family: Helvetica;
+font-size: 17px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0em;
+color:  #636060;
+margin-bottom: 5px;
+
+}
+.h4 {
+font-family: Helvetica;
+font-size: 28px;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: 0em;
+margin-bottom: 17px;
+}
+.hop {
+font-family: Helvetica;
+font-size: 20px;
+font-weight: 400;
+line-height: 23px;
+letter-spacing: 0em;
+color: #636060;
+
+}
+ .container2 {
+  display: inline-block;
+  width: 300px;
+  height: 350px;
+  top: 40px;
+  margin-left: 65px;
+}
+.flex-cont {
+display: flex;
+justify-content: space-around;
+}
+
+.flexcont {
+display: flex;  
+gap: 120px;
+
+}
+
+
+.p3 { 
+ font-family: Helvetica;
+font-size: 17px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0em;
+color:  #636060;
+margin-bottom: 5px;
+margin-top: 10px;
+}
+.caption {
+font-family: Helvetica;
+font-size: 18px;
+font-weight: 400;
+line-height: 21px;
+letter-spacing: 0em;
+}
+.flexcont2{
+display: flex;  
+gap: 120px;
+margin-left: 535
+}
